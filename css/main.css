@@ -53,10 +53,11 @@ body {
 .logo{
   left: 28px;
   position: absolute;
+  top: 11px;
 }
  .navb{
   position: absolute;
-  top: 46%;
+  top: 68%;
   right: 0px;
   font-size: 12px;
   left: 88px;
@@ -69,7 +70,7 @@ body {
 position: relative;
 text-align: center;
 color: #949494;
-margin: 8px;
+margin: 4px;
 width: 319px;
 padding: 10px ;
 transition: 0.2s ease color;
@@ -153,16 +154,16 @@ text-decoration: none;
 }
 
 .navb a:nth-child(2):hover ~ #indicator {
-  left: 30%;
+  left: 27%;
   background: linear-gradient(130deg, #00e2ff, #89ff00);
 }
 
 .navb a:nth-child(3):hover ~ #indicator {
-  left: 60%;
+  left: 50%;
   background: linear-gradient(130deg, purple, palevioletred);
 }
 .navb a:nth-child(4):hover ~ #indicator {
-    left: 80%;
+    left: 70%;
     background: linear-gradient(130deg, rgb(46, 22, 202), rgb(177, 170, 172));
   }
 
