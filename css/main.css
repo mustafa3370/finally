@@ -255,15 +255,16 @@ text-decoration: none;
 .content{
   position: absolute;
   max-width: 1000px;
-  left: 2px;
   top: 161px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.content .image{
-  position: absolute;
-  right:  30px;
+.content image{
+  position: relative;
+ width: 800px;
+ height: 400px;
+ overflow: hidden;
 }
 
 
