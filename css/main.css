@@ -13,6 +13,7 @@
   text-transform: capitalize;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
+  
 }
 
 html {
@@ -20,6 +21,7 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 4rem;
+ 
 }
 ::-webkit-scrollbar {
   width: 0.5rem;
@@ -37,7 +39,9 @@ body {
   margin: 0;
   background-color: #fff;
   overflow: hidden;
+  height: 5000px;
 }
+
 .header {
   display: flex;
   align-items: center;
@@ -191,7 +195,7 @@ text-decoration: none;
   position: relative;
 }
 .robot img{
-  position: absolute;
+  position: relative;
   top: 90px;
   left: -7%;
   width:500px;
@@ -236,6 +240,41 @@ text-decoration: none;
     background-position: 500%;
   }
 }
+
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-title{
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.content{
+  position: absolute;
+  max-width: 1000px;
+  left: 2px;
+  top: 161px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .image{
+  position: absolute;
+  right:  30px;
+}
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px)  {
   .pra p{
     position: absolute;
@@ -249,8 +288,6 @@ text-decoration: none;
     left: -21%;
   }
 }
-
-
 
 
 
