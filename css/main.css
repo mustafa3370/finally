@@ -37,7 +37,7 @@ html {
 }
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   overflow: hidden;
   height: 5000px;
 }
@@ -266,7 +266,26 @@ text-decoration: none;
  height: 400px;
  overflow: hidden;
 }
-
+.content .image img{
+  z-index: 111;
+  position:absolute;
+  top: 0;
+  left: -225px;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+.content .texbox{
+  position: relative;
+  left: 96px;
+  z-index: 222;
+  background: rgba(68, 106, 106, 0.1);
+  backdrop-filter: blur (20px);
+  padding: 40px;
+  max-width: 700px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
 
 
 
@@ -287,6 +306,30 @@ text-decoration: none;
     position: absolute;
     top: 80px;
     left: -21%;
+  }
+  .content{
+    position: absolute;
+    max-width: 900px;
+    top: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .image img{
+    z-index: 111;
+    position:absolute;
+    top: -228px;
+    left: 4px;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .content .texbox{
+    position: relative;
+    max-width: 362px;
+    top: 68px;
+    left: 2px;
+    z-index: 222;
   }
 }
 
