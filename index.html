@@ -8,11 +8,14 @@
     <script src="https://kit.fontawesome.com/43a9b99d41.js" crossorigin="anonymous"></script>
     <!--bootstrap file -->
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://unpkg.com/rolly.js@0.2.1/css/style.css">
     <!--Css file start -->
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="icon" type="image/x-icon" href="./images/the logo.png">
 </head>
 <body>
+  <main class="app">
      <!--header section starts-->
     <header class="header">
       <div class="login">
@@ -42,14 +45,15 @@
          class="position-absolute width-full z-1" style="bottom: -1px;"><path d="M0 40h1680V30S1340 0 840 0 0 30 0 30z" fill="#fff"></path></svg>
       </section>
       <!--about start-->
-      <section class="sec-01">
+      <section class="sec-01" >
         <div class="container">
-      <h2 class="main-title">About us</h2>
-      <div class="content">
+      <h2 class="main-title"data-aos="fade-right" >About us</h2>
+      <div class="content"data-aos="fade-left">
         <div class="image">
-          <img src="./images/about png.png" alt="logo" >
+          <img src="./images/labtob png.png" alt="about"data-aos="fade-up-right" >
         </div>
         <div class="texbox">
+          <h3>BDaya team</h3>
           <p>BDaya is a university team that was established in 2015 by some ambitious educated students with the aim of spreading knowledge 
             of computer science and its fields and building distinguished student models scientifically, professionally and ethically in order
              to build and prosper the student community with science, and create a civilized environment where friendship, cooperation and active 
@@ -57,21 +61,38 @@
              teamwork and striving to develop and encourage a sense of innovation and creativity among students, as this works to transfer experiences
              among students
           </p>
-          <div class="media-icons">
-            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#" class="icon"><i class="fa-solid fa-envelope"></i></a>
-          </div>
+          
         </div>
+      </div>
+      <div class="media-icons"data-aos="zoom-in-up">
+        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="icon "><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" class="icon"><i class="fa-solid fa-envelope"></i></a>
       </div>
         </div>
       </section>
       <!--about end-->
 
-
+      <script src="https://unpkg.com/rolly.js@0.2.1/dist/rolly.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+      <script>
+        const r = rolly({
+  view: document.querySelector('.app'),
+  native: true,
+  // other options
+});
+      </script>
 <!--jQuery js file-->
 <script src="./js/jQuery.js"></script>
     <!--bootstrap js file-->
  <script src="./js/bootstrap.bundle.min.js"></script>
+ <script>
+  AOS.init({
+    duration:1500
+  });
+</script>
+</main>
 </body>
 </html>
