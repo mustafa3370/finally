@@ -455,7 +455,11 @@ background-color: #265DF4;
     right: 54px;
     margin-top: 20px;
   }
-
+  .name{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+  }
 }
 
 
