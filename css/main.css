@@ -316,7 +316,8 @@ text-align: center;
 .slide-content{
   margin: 0 40px;
   display: flex;
-  align-items: center;
+  justify-content: space-around;
+  flex-flow: wrap;
 }
 .card{
   height: 390px;
@@ -441,6 +442,18 @@ background-color: #265DF4;
     color: #000;
     font-size: 2em;
     margin: 10px;
+  }
+  
+  .card{
+    height: 390px;
+    width: 90%;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 75px;
+    position: relative;
+    top: 50px;
+    right: 54px;
+    margin-top: 20px;
   }
 
 }
