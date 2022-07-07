@@ -39,7 +39,7 @@ body {
   margin: 0;
   background-color: rgb(255, 255, 255);
   overflow: hidden;
-  height: 6000px;
+  height: 7000px;
 }
 
 .header {
@@ -537,6 +537,27 @@ color: #232323;
    background-color: white;
  }
 
+ .container.b2{
+   position: relative;
+   top:390px;
+   right: 20px;
+
+ }
+ .content .imageb img{
+    z-index: 111;
+    position:absolute;
+    top: 0;
+    left: 707px;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  
+ }
+ .container.f3{
+  position: relative;
+  left: -153px;
+  top: 816px;
+}
 
 
 
@@ -648,6 +669,38 @@ width: 80%;
 .container.f1{
   position: relative;
     left: 6px;
+}
+.content .imageb .fimg{
+  position: relative;
+  width: 179%;
+  left: 14px;
+  top: -226px;
+}
+.content .imageb img{
+  z-index: 111;
+  position:absolute;
+  top: 0;
+  left: 707px;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.content .imageb .fimg{
+  position: relative;
+  width: 179%;
+  left: 192px;
+  top: -244px;
+}
+.container.b2{
+  position: relative;
+  top: 637px;
+  left: 6px;
+}
+.container.f3{
+  position: relative;
+  top: 1216px;
+  left: 6px;
 }
 }
 
