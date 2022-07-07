@@ -676,6 +676,7 @@ width: 80%;
 .container.f1{
   position: relative;
     left: 6px;
+    top:-5px;
 }
 .content .imageb .fimg{
   position: relative;
@@ -697,16 +698,16 @@ width: 80%;
   position: relative;
   width: 179%;
   left: 192px;
-  top: -249px;
+  top: -273px;
 }
 .container.b2{
   position: relative;
-  top: 637px;
+  top: 712px;
   left: 6px;
 }
 .container.f3{
   position: relative;
-  top: 1216px;
+  top:1348px;
   left: 6px;
 }
 }
