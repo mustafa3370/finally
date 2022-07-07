@@ -566,6 +566,13 @@ color: #232323;
 
 
 @media only screen and (max-width: 600px)  {
+  body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    height: 8000px;
+  }
+  
   .pra p{
     position: absolute;
     bottom:  15px;
@@ -690,7 +697,7 @@ width: 80%;
   position: relative;
   width: 179%;
   left: 192px;
-  top: -244px;
+  top: -249px;
 }
 .container.b2{
   position: relative;
